@@ -1,4 +1,4 @@
-import { MySharedInterface } from "shared-types";
+import { add, MySharedInterface } from "shared-types";
 import { MySharedInterfaceBringsAllTheBoysToTheYard } from "shared-type-def";
 
 class MyImplementation
@@ -7,4 +7,8 @@ class MyImplementation
   inYard: boolean;
   shared: boolean;
   items: number[];
+
+  add() {
+    return add(1, 2);
+  }
 }
