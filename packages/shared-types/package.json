@@ -1,8 +1,12 @@
 {
   "name": "shared-types",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc -d --outDir dist --module es2015 src/index.ts"
+  },
   "devDependencies": {
     "typescript": "^4.0.3"
   }

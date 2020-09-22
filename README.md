@@ -5,4 +5,7 @@
 
 ## Getting started
 
-Run `yarn install`
+Run:
+
+- `yarn install`
+- `yarn build`

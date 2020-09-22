@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "types": "types.d.ts"
+  "types": "types.d.ts",
+  "scripts": {
+    "build": "exit 0"
+  }
 }

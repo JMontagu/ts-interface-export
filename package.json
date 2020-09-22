@@ -4,6 +4,9 @@
   "author": "Jade Montagu <jade@jademontagu.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "yarn workspaces run build"
+  },
   "workspaces": [
     "packages/*"
   ]
