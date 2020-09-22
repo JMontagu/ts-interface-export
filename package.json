@@ -1,0 +1,10 @@
+{
+  "name": "ts-interface-export",
+  "version": "1.0.0",
+  "author": "Jade Montagu <jade@jademontagu.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
