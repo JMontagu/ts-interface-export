@@ -5,6 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.0.3",
-    "shared-types": "1.0.0"
+    "shared-types": "1.0.0",
+    "shared-type-def": "1.0.0"
   }
 }
