@@ -6,7 +6,7 @@ import {
 
 class MyImplementation
   implements MySharedInterface, MySharedInterfaceBringsAllTheBoysToTheYard {
-  ts31AndUp: true;
+  ts35AndUp: true;
   boys: object[];
   andTheyAreLike: Pick<TheyAreLike, "better">;
   inYard: boolean;
