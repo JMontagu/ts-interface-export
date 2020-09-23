@@ -1,4 +1,4 @@
 export interface MySharedInterfaceBringsAllTheBoysToTheYard {
-  boys: object[];
   inYard: boolean;
+  preTS31: true;
 }

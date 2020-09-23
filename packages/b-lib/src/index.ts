@@ -1,9 +1,14 @@
 import { add, MySharedInterface } from "shared-types";
-import { MySharedInterfaceBringsAllTheBoysToTheYard } from "shared-type-def";
+import {
+  MySharedInterfaceBringsAllTheBoysToTheYard,
+  TheyAreLike,
+} from "shared-type-def";
 
 class MyImplementation
   implements MySharedInterface, MySharedInterfaceBringsAllTheBoysToTheYard {
-  preTS31: true;
+  ts31AndUp: true;
+  boys: object[];
+  andTheyAreLike: Pick<TheyAreLike, "better">;
   inYard: boolean;
   shared: boolean;
   items: number[];
